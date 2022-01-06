@@ -1,0 +1,29 @@
+{
+  "name": "@ceicc/express-template",
+  "version": "1.0.0",
+  "description": "MVC Express.js Template",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceicc/express-template.git"
+  },
+  "keywords": [
+    "MVC",
+    "template"
+  ],
+  "author": "Husam Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ceicc/express-template/issues"
+  },
+  "homepage": "https://github.com/ceicc/express-template#readme",
+  "dependencies": {
+    "@ceicc/range": "^2.1.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.2"
+  }
+}
