@@ -2,10 +2,10 @@ const express = require("express"),
       router = express.Router()
 
 
-const getController = require('./get/get-controller'),
-      postController = require('./post/post-controller'),
-      putController = require('./put/put-controller'),
-      deleteController = require('./delete/delete-controller')
+const getController = require('./routes/get/get-controller'),
+      postController = require('./routes/post/post-controller'),
+      putController = require('./routes/put/put-controller'),
+      deleteController = require('./routes/delete/delete-controller')
 
 
 router.get("*", getController)
